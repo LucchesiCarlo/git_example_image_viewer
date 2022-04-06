@@ -23,9 +23,9 @@ bool BitmapImage::save() {
     //... save file ...
     bool res = false;
     if (res)
-        //resize immage
+        resize(width / 2, height / 2);
 
-        return true;
+    return true;
 }
 
 bool BitmapImage::resize(int width, int height) {
